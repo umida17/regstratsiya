@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import './App.css'; // Stillarni shu yerga ulaymiz
+import './App.css';
 
 function App() {
   const [formData, setFormData] = useState({
