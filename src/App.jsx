@@ -18,7 +18,6 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Parollar bir-biriga mosligini tekshirish
     if (formData.password !== formData.confirmPassword) {
       alert("Parollar mos kelmadi!");
       return;
