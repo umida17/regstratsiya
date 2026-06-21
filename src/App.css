@@ -1,5 +1,4 @@
 
-/* Google Fonts'dan toza va zamonaviy shrift yuklash */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
@@ -9,7 +8,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/* Umumiy fon va markazga tekshirish */
 .register-container {
   min-height: 100vh;
   display: flex;
