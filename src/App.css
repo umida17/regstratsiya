@@ -76,7 +76,6 @@
   outline: none;
 }
 
-/* Inputga bosilgandagi effekt (Focus) */
 .input-group input:focus {
   border-color: #764ba2;
   box-shadow: 0 0 0 3px rgba(118, 75, 162, 0.2);
