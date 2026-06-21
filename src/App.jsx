@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import './App.css';
 
@@ -9,6 +8,8 @@ function App() {
     password: '',
     confirmPassword: '',
   });
+
+   const [isRegistered, setIsRegistered] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -23,11 +24,28 @@ function App() {
       return;
     }
 
-    console.log('Yuborilgan ma\'lumotlar:', formData);
-    alert('Muvaffaqiyatli ro\'yxatdan o\'tdingiz!');
+    console.log('Muvaffaqiyatli ro\'yxatdan o\'tdi:', formData);
+    
+     setIsRegistered(true);
   };
 
-  return (
+   if (isRegistered) {
+    return (
+      <div className="register-container">
+        <div className="register-card welcome-card">
+          <div className="success-icon">🎉</div>
+          <h2 className="register-title">Xush kelibsiz, {formData.username}!</h2>
+          <p className="register-subtitle">Ro'yxatdan muvaffaqiyatli o'tdingiz.</p>
+          <p className="welcome-text">Sizning email: <strong>{formData.email}</strong></p>
+          <button onClick={() => setIsRegistered(false)} className="register-btn">
+            Orqaga qaytish
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+   return (
     <div className="register-container">
       <div className="register-card">
         <h2 className="register-title">Hisob yaratish</h2>
