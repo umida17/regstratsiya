@@ -135,7 +135,6 @@
   }
 }
 
-/* Sahifa yuklanganda formaning mayin chiqish animatsiyasi */
 @keyframes fadeIn {
   from {
     opacity: 0;
