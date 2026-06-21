@@ -125,7 +125,6 @@
   text-decoration: underline;
 }
 
-/* Ekran kichrayganda (Mobil qurilmalarda) chiroyli ko'rinishi uchun */
 @media (max-width: 480px) {
   .register-card {
     padding: 25px 20px;
