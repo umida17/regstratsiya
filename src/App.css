@@ -13,7 +13,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0f8fe4 0%, #aa5ff5 100%);
   padding: 20px;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .register-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #294dee 0%, #a67bd1 100%);
   color: white;
   border: none;
   padding: 14px;
